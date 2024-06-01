@@ -1,6 +1,13 @@
-// pages/index.js
-import Image from 'next/image';
+"use client"
+import { useState } from 'react';
+
 export default function Home() {
+  const [isCollapsed, setIsCollapsed] = useState(true);
+
+  const toggleCollapse = () => {
+    setIsCollapsed(!isCollapsed);
+  };
+
   return (
     <div className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
       {/* Hero Section */}
@@ -21,15 +28,25 @@ export default function Home() {
       <section className="py-16 px-6 md:px-12 bg-gray-100 dark:bg-gray-800">
         <div className="max-w-screen-xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold">About Me</h2>
-          <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto">
-            Hi, I'm Phantom, a passionate graphic designer with over 5 years of experience. I specialize in creating eye-catching designs that help brands stand out. From logos to full-scale branding projects, I bring a unique and artistic touch to every project I work on.
-          </p>
+          <div className={`${isCollapsed ? 'max-h-0 overflow-hidden' : 'max-h-full'}`}>
+            <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto">
+              Welcome to DoodleFreak Studios, where creativity meets precision! We are a premier graphic design and video editing agency dedicated to transforming your vision into captivating visuals and compelling stories. Our team of talented designers and editors thrives on innovation, crafting unique and engaging content tailored to your brand's needs.<br/><br/>
+
+              At DoodleFreak Studios, we understand the power of visual communication in today’s fast-paced digital landscape. Our expertise spans a wide array of services, including brand identity development, promotional materials, social media content, and immersive video experiences. Whether you need a stunning logo, an eye-catching infographic, or a dynamic video production, we bring your ideas to life with a blend of artistry and technical proficiency.<br/><br/>
+
+              We pride ourselves on our collaborative approach, working closely with you to ensure every project not only meets but exceeds your expectations. Our commitment to quality, attention to detail, and passion for design and storytelling make us the perfect partner for businesses looking to make a lasting impression.<br/><br/>
+
+              Let DoodleFreak Studios elevate your brand with visuals that captivate and videos that resonate. Welcome to a world where your creative vision becomes reality.
+            </p>
+          </div>
+          <button onClick={toggleCollapse} className="text-white hover:underline bg-blue-600 focus:outline-none mt-4 p-2 rounded">
+            {isCollapsed ? 'Read' : 'Collapse'}
+          </button>
         </div>
       </section>
 
       {/* Portfolio Section */}
-      
-      
+      {/* Your portfolio section code here */}
     </div>
   );
 }
