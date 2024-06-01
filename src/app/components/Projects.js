@@ -4,7 +4,7 @@ export default function Projects(){
     return(
         <section id="portfolio" className="py-16 px-6 md:px-12 bg-gray-50 dark:bg-gray-900 dark:text-gray-200">
         <div className="max-w-screen-xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-200">My Creations</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-200">Our Creations</h2>
           <div className="mt-12 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md">
               <img src="https://cdn.discordapp.com/attachments/1246383609061965845/1246383899714523231/Untitled-1.png?ex=665c30f6&is=665adf76&hm=cdf01c8496bc7cd2133ad1ca51a5ce072253e299ca83c66fc50868ca8c9fa41c&" alt="Project 1" width={400} height={300} className="h-52" layout="responsive" />
