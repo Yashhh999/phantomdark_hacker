@@ -25,11 +25,11 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-16 px-6 md:px-12 bg-gray-100" style={{background: 'linear-gradient(to right, #1F2937,rgb(49 46 129) )'}}>
+      <section className="py-16 px-6 md:px-12 bg-gray-100 dark:text-gray-200" style={{background: 'linear-gradient(to right, #1F2937,rgb(49 46 129) )'}}>
         <div className="max-w-screen-xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">About Us</h2>
+          <h2 className="text-3xl md:text-4xl font-bold  text-gray-200">About Us</h2>
           <div className={`${isCollapsed ? 'max-h-0 overflow-hidden' : 'max-h-full'}`}>
-            <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto">
+            <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto text-gray-200">
               Welcome to DoodleFreak Studios, where creativity meets precision! We are a premier graphic design and video editing agency dedicated to transforming your vision into captivating visuals and compelling stories. Our team of talented designers and editors thrives on innovation, crafting unique and engaging content tailored to your brand's needs.<br/><br/>
 
               At DoodleFreak Studios, we understand the power of visual communication in today’s fast-paced digital landscape. Our expertise spans a wide array of services, including brand identity development, promotional materials, social media content, and immersive video experiences. Whether you need a stunning logo, an eye-catching infographic, or a dynamic video production, we bring your ideas to life with a blend of artistry and technical proficiency.<br/><br/>
