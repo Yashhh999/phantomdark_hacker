@@ -6,7 +6,7 @@ export default function Contact() {
     <section id="contact" className="py-16 px-6 md:px-12 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
       <div className="max-w-screen-xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold">Get In Touch</h2>
-        <p className="mt-6 text-lg md:text-xl">Feel free to connect with me on social media or send me an email!</p>
+        <p className="mt-6 text-lg md:text-xl">Feel free to connect with mus on social media or send us an email!</p>
         <div className="mt-8 flex justify-center space-x-6">
           <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-400 transition duration-300">
             <FaTwitter size={30} />

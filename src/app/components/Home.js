@@ -27,7 +27,7 @@ export default function Home() {
       {/* About Section */}
       <section className="py-16 px-6 md:px-12 bg-gray-100 dark:bg-gray-800">
         <div className="max-w-screen-xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">About Me</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">About Us</h2>
           <div className={`${isCollapsed ? 'max-h-0 overflow-hidden' : 'max-h-full'}`}>
             <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto">
               Welcome to DoodleFreak Studios, where creativity meets precision! We are a premier graphic design and video editing agency dedicated to transforming your vision into captivating visuals and compelling stories. Our team of talented designers and editors thrives on innovation, crafting unique and engaging content tailored to your brand's needs.<br/><br/>
