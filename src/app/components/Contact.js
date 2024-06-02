@@ -19,7 +19,7 @@ export default function Contact() {
             <FaEnvelope size={30} />
           </a>
         </div>
-        <div className="mt-10">
+        <div className="mt-10 text-gray-400">
         Copyright © Website Made by <span className="text-blue-500"> <Link href="https://yashit.me/">Yash</Link> </span> All rights reserved.
         </div>
       </div>
