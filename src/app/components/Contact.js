@@ -1,4 +1,5 @@
 // components/Contact.js
+import Link from 'next/link';
 import { FaTwitter, FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 export default function Contact() {
@@ -11,8 +12,6 @@ export default function Contact() {
           <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-400 transition duration-300">
             <FaTwitter size={30} />
           </a>
-          
-          
           <a href="https://www.instagram.com/doodlefreakstudios" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-pink-500 transition duration-300">
             <FaInstagram size={30} />
           </a>
@@ -20,7 +19,11 @@ export default function Contact() {
             <FaEnvelope size={30} />
           </a>
         </div>
+        <div className="mt-10">
+        Copyright © Website Made by <span className="text-blue-500"> <Link href="https://yashit.me/">Yash</Link> </span> All rights reserved.
+        </div>
       </div>
+
     </section>
   );
 }

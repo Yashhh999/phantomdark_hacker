@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 export default function Projects(){
     return(
-        <section id="portfolio" className="py-16 px-6 md:px-12 bg-gray-50 dark:bg-gray-900 dark:text-gray-200">
+        <section id="portfolio" className="py-16 px-6 md:px-12 bg-gray-50 dark:text-gray-200" style={{background: 'linear-gradient(to right, #1F2937,rgb(49 46 129) )'}}>
         <div className="max-w-screen-xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-200">Our Creations</h2>
           <div className="mt-12 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

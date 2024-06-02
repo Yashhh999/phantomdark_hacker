@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Services() {
   return (
-    <section id="services" className="py-16 px-6 md:px-12 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+    <section id="services" className="py-16 px-6 md:px-12 bg-gray-50  text-gray-800 dark:text-gray-200" style={{background: 'linear-gradient(to right, #1F2937,rgb(49 46 129) )'}}>
       <div className="max-w-screen-xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold">Our Services</h2>
         <p className="mt-4 text-lg md:text-xl">Explore the wide range of services we offer to help your brand stand out.</p>

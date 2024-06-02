@@ -9,7 +9,7 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+    <div className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200" >
       {/* Hero Section */}
       <section className="h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('https://cdn.discordapp.com/attachments/1242493595479441460/1246520938158100622/2fcd0099-3516-40a6-9938-bf7829158846.jpg?ex=665cb096&is=665b5f16&hm=c02fc5137611caff8f18a205d442c4dec66806851e6b789451ea0c64e9b033d8&')" }}>
         <div className="container mx-auto flex flex-col-reverse md:flex-row items-center bg-black bg-opacity-50 p-6 md:p-12 rounded-lg">
@@ -25,7 +25,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-16 px-6 md:px-12 bg-gray-100 dark:bg-gray-800">
+      <section className="py-16 px-6 md:px-12 bg-gray-100" style={{background: 'linear-gradient(to right, #1F2937,rgb(49 46 129) )'}}>
         <div className="max-w-screen-xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold">About Us</h2>
           <div className={`${isCollapsed ? 'max-h-0 overflow-hidden' : 'max-h-full'}`}>
