@@ -59,6 +59,21 @@ export default function Services() {
             </div>
           </div>
 
+          <div className="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+            <Image
+              src="/6.jpg"
+              alt="Branding"
+              width={400}
+              height={300}
+              className="object-cover"
+            />
+            <div className="p-6 mt-3">
+              <h3 className="text-xl font-bold">Web Development</h3>
+              <p className="mt-2 text-gray-400">
+                We provide custom web development services to create responsive, user-friendly websites that elevate your online presence.
+              </p>
+            </div>
+          </div>
           {/* Add more services as needed */}
         </div>
       </div>

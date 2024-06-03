@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/dc.ico" />
         <title>Doodle Freaks</title>
         <meta name="description" content="Your oneshot branding and gfx solution" />
         
