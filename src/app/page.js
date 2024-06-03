@@ -1,7 +1,7 @@
-import Home from './Components/Home'
-import Services from './Components/Services'
-import Contact from './Components/Contact'
-import Projects from './Components/Projects'
+import Home from './components/Home'
+import Services from './components/Services'
+import Contact from './components/Contact'
+import Projects from './components/Projects'
 
 export default function Page(){
   return(
