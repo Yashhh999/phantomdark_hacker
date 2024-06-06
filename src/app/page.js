@@ -9,11 +9,11 @@ export default function Page(){
       <section id ="Home" >
         <Home/>
       </section >
-      <section id="Projects">
-        <Projects/>
-      </section>
       <section id="Services">
         <Services/>
+      </section>
+      <section id="Projects">
+        <Projects/>
       </section>
       <section id="Contact">
         <Contact/>
