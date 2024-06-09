@@ -21,7 +21,7 @@ export default function Contact() {
           <a href="https://wa.me/+919830733489" className="text-gray-500 hover:text-green-600 transition duration-300">
             <FaWhatsapp size={30} />
           </a>
-          <a href="https://discord.gg/XT7HcyPJ3Z" className="text-gray-500 hover:text-green-600 transition duration-300">
+          <a href="https://discord.gg/XT7HcyPJ3Z" className="text-gray-500 hover:text-blue-600 transition duration-300">
             <FaDiscord size={30} />
           </a>
         </div>
