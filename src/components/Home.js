@@ -20,7 +20,7 @@ export default function Home() {
             <a href="#portfolio" className="mt-6 inline-block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300">View our Works</a>
           </div>
           <div className="md:w-1/2 text-center">
-            <Image src="/dc.jpg" alt="Phantom" width={800} height={400} className="rounded-full mx-auto" />
+            <Image src="/dc.jpg" alt="Phantom" width={400} height={400} className="rounded-full mx-auto" />
           </div>
         </div>
       </section>
