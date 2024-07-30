@@ -16,7 +16,7 @@ export default function Home() {
         <div className="container mx-auto flex flex-col-reverse md:flex-row items-center bg-black bg-opacity-50 p-6 md:p-12 rounded-lg">
           <div className="md:w-1/2 text-center md:text-left mt-6 md:mt-0">
             <h1 className="text-4xl md:text-6xl font-bold text-white">Welcome to Doodle Freaks</h1>
-            <p className="mt-4 text-lg md:text-2xl text-gray-300">We are a team of Graphic Designer specializing in stunning visuals and creative designs.</p>
+            <p className="mt-4 text-lg md:text-2xl text-gray-300">We are a team of Freelancers specializing in stunning visuals, creative designs and cutting edge solutions</p>
             <a href="#portfolio" className="mt-6 inline-block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300">View our Works</a>
           </div>
           <div className="md:w-1/2 text-center">
