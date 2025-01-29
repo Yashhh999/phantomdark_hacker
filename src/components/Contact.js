@@ -9,7 +9,7 @@ export default function Contact() {
         <h2 className="text-3xl md:text-4xl font-bold">Get In Touch</h2>
         <p className="mt-6 text-lg md:text-xl">Feel free to Contact us through social media/email</p>
         <div className="mt-8 flex justify-center space-x-6">
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-400 transition duration-300">
+          <a href="https://x.com/doodle_freaks" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-400 transition duration-300">
             <FaTwitter size={30} />
           </a>
           <a href="https://www.instagram.com/doodlefreakstudios" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-pink-500 transition duration-300">
